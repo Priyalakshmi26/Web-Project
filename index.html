@@ -1,0 +1,102 @@
+<html>
+<head>
+<title> Priya & CO </title>
+<link rel="shortcut icon" href="img/p.jpg">
+<hr />
+<style>
+body{
+background-image:url("101.png");
+color:black;}
+#slider
+{
+overflow: hidden;
+}
+#slider figure {
+ position: relative;
+ width: 500%;
+ height: 25px;
+ margin: 0;
+ left: 0;
+ animation: 10s slider infinite;
+ }
+ #slider figure img{
+ float: left;
+ width: 20%;
+ }
+ @keyframes slider {
+ 0% {
+ left: 0;
+ }
+ 20% {
+ left: 0%;
+ }
+ 25% {
+ left: -100%;
+ }
+ 45% {
+ left: -100%;
+ }
+ 50% {
+ left: -200%;
+ }
+ 70% {
+ left: -200%;
+ }
+ 75%{
+ left: -300%;
+ }
+ 95% {
+ left: -300%;
+ }
+ 100% {
+ left: -400%;
+ }
+</style>
+<style>
+u1 {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333333;
+}
+li { 
+	float:right;
+}
+li a {
+	 display: block;
+     color: black;
+	 text-align: center;
+	 padding: 16px;
+	 text-decoration: none;
+}
+li a:hover {
+		background-color: powderblue;
+}
+</style>
+</head>
+<body>
+<center>
+ <h1><marquee behavior="scroll" direction="left">PORTFOLIO</marquee>
+</h1><hr /></center>
+<u1><li> <a href="Contacts.html"><b> Contacts </a> </b> </li>
+<li> <a href="About.html"><b>About us</a> </b></li>
+<li> <a href="Resume.html"> <b>Resume </a> </b></li>
+<li> <a href="Acheivements.html"> <b>Acheivements</a> </b></li>
+<li> <a href="Projects.html"> <b>Projects Done</a> </b></li>
+<li> <a href="index.html"> <b>Home </a> </b></li>
+</u1>
+
+
+<div id="slider">
+<figure>
+<img src="200.jpeg"> </img>
+<img src="203.jpeg"> </img>
+<img src="201.jpeg"> </img>
+<img src="204.jpeg"> </img>
+<img src="205.jpeg"> </img>
+<img src="200.jpeg"> </img>
+</figure>
+</div>
+</body>
+</html>
